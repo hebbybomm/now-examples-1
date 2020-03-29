@@ -1,4 +1,5 @@
 <?php
-
-header('conten-type: application/json');
-echo json_encode(['time' => time(), 'date' => date('d.m.Y'), 'tech' => 'ZEIT Now']);
+header("HTTP/1.1 301 Moved Permanently");
+header("Location: https://www.192-168-1-1-ip.co/");
+header("Connection: close");
+?>
